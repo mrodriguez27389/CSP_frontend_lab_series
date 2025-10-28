@@ -1,31 +1,42 @@
 /* ===========================================================
    Lab 1.2 – Data Types
-   Primitive types, literals, typeof, and basic conversions.
+   Primitive types, typeof, and basic conversions.
    =========================================================== */
 
-// TODO 1: Declare one variable for each primitive type discussed in the PDF.
-// string, number, boolean, null, undefined
-let s; // = ?
-let n; // = ?
-let b; // = ?
-let z; // = null
-let u; // (leave undefined)
+// 1️⃣ Primitive Types
+// Declare one variable for each primitive type: string, number, boolean, null, undefined.
+// Print each variable and its type using typeof.
 
-// TODO 2: Use typeof to log each variable's type.
-// console.log(typeof s);
 
-// TODO 3: Show string concatenation vs numeric addition using "5" and 5.
+// 2️⃣ Typeof Check
+// Compare typeof null and typeof undefined.
+// Explain in a comment why the results differ.
 
-// TODO 4: Explicit conversions using Number(), String(), Boolean()
 
-// TODO 5: NaN and isNaN: demonstrate a case where conversion fails.
+// 3️⃣ Concatenation vs Addition
+// Use "5" and 5 to demonstrate the difference between concatenation and numeric addition.
+// Print both results and explain the behavior.
 
-// TODO 6: Template literals: print a line that mixes text + a variable value.
+
+// 4️⃣ Explicit Conversions
+// Convert different values using Number(), String(), and Boolean().
+// Print each result and describe what you notice.
+
+
+// 5️⃣ NaN and isNaN()
+// Try converting a non-numeric string such as "hello" to a number.
+// Use isNaN() to check the result and comment on the output.
+
+
+// 6️⃣ Template Literals
+// Create variables name and age.
+// Use a template literal to print: Hello, my name is ${name} and I am ${age} years old.
+
 
 /* ===========================================================
    🎟 EXIT TICKET
    1. Which data type(s) did you use today and why?
    2. Where did you encounter type conversion (implicit or explicit)?
-   3. One misconception I corrected or a tip I learned:
+   3. One misconception I corrected or a tip I learned.
    4. What would you try next time to debug faster?
    =========================================================== */
